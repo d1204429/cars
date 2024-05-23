@@ -30,7 +30,8 @@ public class Main {
 
     System.out.println("Car生產數量" + "\t" + newProduceCar.getProducedCars());
     System.out.println("Taxi生產數量" + "\t" + newProduceTaxi.getProducedCars());
-    System.out.println("ElectricCar生產數量" + "\t" + newProduceElectricCar.getProducedCars() + "\n");
+    System.out.println(
+        "ElectricCar生產數量" + "\t" + newProduceElectricCar.getProducedCars() + "\n");
 
     System.out.println("更新車牌" + "\t" + newProduceCar.updateCarId(carAlpha, "CCC-9966"));
     System.out.println("更新車牌" + "\t" + newProduceTaxi.updateCarId(carNinja, "TAB-7788"));
@@ -43,9 +44,11 @@ public class Main {
         "更新車牌" + "\t" + newProduceElectricCar.updateCarId(carCybertruck, "PIP-9527") + "\n");
 
     System.out.println("更新顏色" + "\t" + newProduceCar.updateCarColor(carAlpha, "White"));
-    System.out.println("更新顏色" + "\t" + newProduceElectricCar.updateCarColor(carCybertruck, "Black"));
+    System.out.println(
+        "更新顏色" + "\t" + newProduceElectricCar.updateCarColor(carCybertruck, "Black"));
     System.out.println("更新顏色" + "\t" + newProduceCar.updateCarColor(carGtr, "Yellow"));
-    System.out.println("更新顏色" + "\t" + newProduceElectricCar.updateCarColor(carCybertruck, "Red"));
+    System.out.println(
+        "更新顏色" + "\t" + newProduceElectricCar.updateCarColor(carCybertruck, "Red"));
 
   }
 }
