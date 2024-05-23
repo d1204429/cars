@@ -1,6 +1,6 @@
 public class CarFactory {
 
-  int numOfCars;
+  private int numOfCars;
 
   public int getProducedCars() {
     return numOfCars;
@@ -37,9 +37,8 @@ public class CarFactory {
     String[] colors = {"White", "Black", "Blue"};
     int partColorIndex = (int) (colors.length * Math.random());
     String color = colors[partColorIndex];
-
     Car car = new Car(carId, engineId, color);
-    numOfCars++;
+    increaseNumOfCars();
     return car;
   }
 
@@ -59,5 +58,12 @@ public class CarFactory {
     return false;
   }
 
+  public void setNumOfCars(int numOfCars) {
+    this.numOfCars = numOfCars;
+  }
 
+  public void increaseNumOfCars() {
+
+    this.numOfCars++;
+  }
 }

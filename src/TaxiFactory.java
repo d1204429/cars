@@ -30,9 +30,8 @@ public class TaxiFactory extends CarFactory {
     String carId = "T" + carIdAPart + '-' + carIdBPart;
 
     String color = "Yellow";
-
     Car car = new Car(carId, engineId, color);
-    numOfCars++;
+    increaseNumOfCars();
     return car;
   }
 

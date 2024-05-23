@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4344bcc-9658-4f70-9cf5-fb9a06fe9dcd" name="Changes" comment="ver1.0.1">
+    <list default="true" id="b4344bcc-9658-4f70-9cf5-fb9a06fe9dcd" name="Changes" comment="ver1.0.3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CarFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ElectricCarFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ElectricCarFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,20 +22,26 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "d1204429"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;d1204429&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/d1204429/cars.git",
-    "accountId": "3756b8fc-9d49-46e0-b1e5-4f855dcaa381"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/d1204429/cars.git&quot;,
+    &quot;accountId&quot;: &quot;3756b8fc-9d49-46e0-b1e5-4f855dcaa381&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -80,6 +87,10 @@
       <workItem from="1716309568583" duration="2364000" />
       <workItem from="1716379797374" duration="21808000" />
       <workItem from="1716427034208" duration="10184000" />
+      <workItem from="1716441689758" duration="675000" />
+      <workItem from="1716442382336" duration="374000" />
+      <workItem from="1716444642973" duration="28000" />
+      <workItem from="1716480464356" duration="1238000" />
     </task>
     <task id="LOCAL-00001" summary="ver1.0">
       <option name="closed" value="true" />
@@ -97,7 +108,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716440975516</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="ver1.0.2">
+      <option name="closed" value="true" />
+      <created>1716441700415</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1716441700415</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ver1.0.3">
+      <option name="closed" value="true" />
+      <created>1716441843231</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716441843231</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +133,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="ver1.0" />
     <MESSAGE value="ver1.0.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="ver1.0.1" />
+    <MESSAGE value="ver1.0.2" />
+    <MESSAGE value="ver1.0.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="ver1.0.3" />
   </component>
 </project>

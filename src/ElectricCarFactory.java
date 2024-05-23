@@ -1,7 +1,6 @@
 public class ElectricCarFactory extends CarFactory {
 
   @Override
-
   public Car produceCar() {
     String numberIdIndex = "0123456789";
     String alphabetIndex = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -33,9 +32,8 @@ public class ElectricCarFactory extends CarFactory {
     String[] colors = {"White", "Black", "Blue"};
     int partColorIndex = (int) (colors.length * Math.random());
     String color = colors[partColorIndex];
-
     Car car = new Car(carId, engineId, color);
-    numOfCars++;
+    increaseNumOfCars();
     return car;
   }
 
