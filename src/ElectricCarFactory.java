@@ -33,7 +33,7 @@ public class ElectricCarFactory extends CarFactory {
     int partColorIndex = (int) (colors.length * Math.random());
     String color = colors[partColorIndex];
     Car car = new Car(carId, engineId, color);
-    increaseNumOfCars();
+    produceNumOfCars();
     return car;
   }
 

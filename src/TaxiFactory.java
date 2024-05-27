@@ -31,7 +31,7 @@ public class TaxiFactory extends CarFactory {
 
     String color = "Yellow";
     Car car = new Car(carId, engineId, color);
-    increaseNumOfCars();
+    produceNumOfCars();
     return car;
   }
 

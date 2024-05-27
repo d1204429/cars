@@ -38,7 +38,7 @@ public class CarFactory {
     int partColorIndex = (int) (colors.length * Math.random());
     String color = colors[partColorIndex];
     Car car = new Car(carId, engineId, color);
-    increaseNumOfCars();
+    produceNumOfCars();
     return car;
   }
 
@@ -62,7 +62,7 @@ public class CarFactory {
     this.numOfCars = numOfCars;
   }
 
-  public void increaseNumOfCars() {
+  public void produceNumOfCars() {
 
     this.numOfCars++;
   }
